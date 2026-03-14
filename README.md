@@ -34,7 +34,7 @@
 
 - **End-to-End ML Pipeline** — From raw data to deployed prediction service, covering EDA, preprocessing, feature engineering, training, evaluation, and deployment.
 - **8 Classification Models Compared** — Logistic Regression, Naive Bayes, KNN, SVM, Decision Tree, Random Forest, Gradient Boosting, and AdaBoost — all benchmarked on the same test set.
-- **Hyperparameter Tuning** — RandomizedSearchCV on the best model (Gradient Boosting) with 20 iterations across 5 hyperparameters.
+- **Hyperparameter Tuning** — RandomizedSearchCV on the best model (Gradient Boosting) with 10 iterations across 5 hyperparameters.
 - **5 Domain-Engineered Features** — Claim-to-premium ratio, high claim flag, night incident indicator, multi-vehicle flag, and missing police report flag.
 - **REST API with FastAPI** — Production-ready prediction endpoint with input validation, error handling, and auto-generated Swagger docs.
 - **Interactive Streamlit Dashboard** — User-friendly interface with real-time engineered feature preview and clear fraud/legitimate result display.
